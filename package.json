@@ -1,0 +1,17 @@
+{
+  "name": "node-template-js",
+  "version": "1.0.0",
+  "description": "A simple node boilerplate",
+  "main": "index.js",
+  "keywords": [],
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint '*.{js,ts,tsx}' --fix"
+  },
+  "type": "module",
+  "author": "Alvaro Fernandez",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
