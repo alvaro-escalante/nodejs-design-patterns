@@ -24,8 +24,9 @@ export class FindRegex extends EventEmitter {
         const match = content.match(this.regex)
         if (match) {
           match.forEach((elem) => this.emit('found', file, elem))
-          // Emit only if regex did not match content
-        } else {
+        }
+        // Emit only if regex did not match content
+        else {
           this.emit('notfound', file)
         }
       } catch (err) {
