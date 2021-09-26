@@ -1,11 +1,11 @@
 {
-  "name": "node-template-js",
+  "name": "nodejs-design-patterns",
   "version": "1.0.0",
-  "description": "A simple node boilerplate",
+  "description": "Node.js Design Patterns Third Edition Exercise Solutions",
   "main": "index.js",
   "keywords": [],
   "scripts": {
-    "start": "node index.js",
+    "start_3_1": "cd exercise.1 && node index.js",
     "lint": "eslint '*.{js,ts,tsx}' --fix"
   },
   "type": "module",
