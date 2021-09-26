@@ -13,6 +13,7 @@ My solution for this exercise is to use `fs/promises` which can be used with a t
 
 Also I think the whole point of having the `this.emit('fileread', file)` was to be use on this excercises so I just kept that line where is at, as with `fs/promises` I don't need `process.nextTick()` and used that event as my `.on` method.
 
+I have also added a data file that does not contain a regex match, another `event` for unmatched and change to `process.stdout.write` instead of `console.log` to print in one line.
 
 Using npm
 
