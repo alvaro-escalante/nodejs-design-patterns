@@ -9,7 +9,7 @@
 
 ## Explanation
 
-On this one I went for a simple recursive function that exists with the callback result when the number runs out.
+On this one I went for a simple recursive function that exits with the callback result when the number runs out.
 
 Using npm
 
