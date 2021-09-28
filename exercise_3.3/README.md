@@ -3,7 +3,7 @@
 
 ---
 
-**Exercise 3.4 - A simple modification**
+**Exercise 3.3 - A simple modification**
 
 ---
 
