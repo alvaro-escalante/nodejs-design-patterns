@@ -8,6 +8,7 @@
     "start_3_1": "cd exercise_3.1 && node index.js",
     "start_3_2": "cd exercise_3.2 && node index.js",
     "start_3_3": "cd exercise_3.3 && node index.js",
+    "start_3_4": "cd exercise_3.4 && node index.js",
     "lint": "eslint '*.{js,ts,tsx}' --fix"
   },
   "type": "module",
